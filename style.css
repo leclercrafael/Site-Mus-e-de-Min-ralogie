@@ -1,0 +1,156 @@
+*{
+    box-sizing: border-box;
+    background-color:rgb(128, 60, 0) ;
+    margin: 0;
+    padding: 0;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.header{
+    background-image: url("./header.jpg");
+    opacity: 0.85;
+    height: 324px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+#title{
+    background-color: rgb(128, 60, 0);
+    width: 50%;
+    height: 150px;
+    color: whitesmoke;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 200;
+    font-style: italic;
+    font-size:xx-large;
+    padding: auto; 
+    justify-content: center; /* Centre le contenu horizontalement */
+    align-items: center;
+    text-align: center;
+    padding: 60px 0;
+    position: absolute;
+    right: 25%;
+    top: 87px;
+    display: flex;
+}
+
+body{
+    justify-content: center;
+    align-items: center;
+
+}
+
+.bienvenue{
+    margin-top: 50px;
+    margin-left: 20px;
+    color: white;
+    text-justify: auto;
+}
+.bienvenue h2{
+    font-style: italic;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.bienvenue{
+    font-size: larger;
+}
+
+.parcours{
+    
+    color: white;
+    margin-top: 100px;
+}
+
+.parcours h2{
+    font-style: italic;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+.parcours p{
+    margin-left: 20px;
+    font-size: larger;
+}
+
+#p1{
+    height: 120px;
+    max-height: 320px;
+    border-radius: 25px;
+    border: 3px solid grey;
+    margin-top: 15px;
+    margin-right: 20px;
+    margin-left: 3%;
+    z-index:10;
+    float: right;
+    display: inline-block;
+}
+
+.discours{
+    
+    color: white;
+    margin-top: 100px;
+}
+
+.discours h2{
+    font-style: italic;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+.discours p{
+    margin-left: 20px;
+    font-size: larger;
+}
+
+#p2{
+    height: 127px;
+    max-height: 320px;
+    border-radius: 25px;
+    border: 3px solid grey;
+    margin-top: 15px;
+    margin-right: 20px;
+    margin-left: 3%;
+    z-index:10;
+    float: right;
+    display: inline-block;
+}
+.infos{
+    color: white;
+    margin-top: 110px;
+}
+
+.infos h2{
+    font-style: italic;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+.infos p{
+    margin-left: 20px;
+    font-size: larger;
+}
+
+#p3{
+    height: 120px;
+    max-height: 320px;
+    border-radius: 25px;
+    border: 3px solid grey;
+    margin-top: 15px;
+    margin-right: 20px;
+    margin-left: 3%;
+    z-index:10;
+    float: right;
+    display: inline-block;
+}
+
+.footer{
+    margin-top: 150px;
+    display: inline-block;
+
+}
+
+.footer p{
+    color: white;
+    background-color: black;
+    padding: 10px 20px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
