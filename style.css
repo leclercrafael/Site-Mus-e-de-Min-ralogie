@@ -1,6 +1,6 @@
 *{
     box-sizing: border-box;
-    background-color:rgb(128, 60, 0) ;
+    background-color: rgb(49, 43, 37) ;
     margin: 0;
     padding: 0;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -14,14 +14,14 @@
 }
 
 #title{
-    background-color: rgb(128, 60, 0);
+    background-color: rgb(49, 43, 37);
     width: 50%;
     height: 150px;
     color: whitesmoke;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: 200;
     font-style: italic;
-    font-size:xx-large;
+    font-size: xx-large;
     padding: auto; 
     justify-content: center; /* Centre le contenu horizontalement */
     align-items: center;
@@ -44,15 +44,12 @@ body{
     margin-left: 20px;
     color: white;
     text-justify: auto;
+    font-size: larger;
 }
 .bienvenue h2{
     font-style: italic;
     margin-bottom: 30px;
     margin-top: 30px;
-}
-
-.bienvenue{
-    font-size: larger;
 }
 
 .parcours{
@@ -153,4 +150,96 @@ body{
     text-align: center;
     justify-content: center;
     align-items: center;
+}
+
+
+
+/* Pour les pages parcours, info, etc on réutilise le header et le footer pour plus
+de cohérence quand on change de page, en revanche je vais utiliser un code très 
+similaire pour refaire la page parcours*/
+
+
+.joail{
+    
+    color: white;
+    margin-top: 100px;
+}
+
+.joail h2{
+    font-style: italic;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+.joail p{
+    margin-left: 20px;
+    font-size: larger;
+}
+
+#p4{
+    height: 120px;
+    max-height: 320px;
+    border-radius: 25px;
+    border: 3px solid grey;
+    margin-top: 15px;
+    margin-right: 20px;
+    margin-left: 3%;
+    z-index:10;
+    float: right;
+    display: inline-block;
+}
+
+.mode{
+    
+    color: white;
+    margin-top: 100px;
+}
+
+.mode h2{
+    font-style: italic;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+.mode p{
+    margin-left: 20px;
+    font-size: larger;
+}
+
+#p5{
+    height: 121px;
+    max-height: 320px;
+    border-radius: 25px;
+    border: 3px solid grey;
+    margin-top: 15px;
+    margin-right: 20px;
+    margin-left: 3%;
+    z-index:10;
+    float: right;
+    display: inline-block;
+}
+.cosme{
+    color: white;
+    margin-top: 110px;
+}
+
+.cosme h2{
+    font-style: italic;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+.cosme p{
+    margin-left: 20px;
+    font-size: larger;
+}
+
+#p6{
+    height: 121px;
+    max-height: 320px;
+    border-radius: 25px;
+    border: 3px solid grey;
+    margin-top: 15px;
+    margin-right: 20px;
+    margin-left: 3%;
+    z-index:10;
+    float: right;
+    display: inline-block;
 }
