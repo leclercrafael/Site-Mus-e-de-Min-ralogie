@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: justify; 
 }
 .header{
     background-image: url("./header.jpg");
@@ -42,6 +43,7 @@ body{
 .bienvenue{
     margin-top: 50px;
     margin-left: 20px;
+    margin-right: 20px;
     color: white;
     text-justify: auto;
     font-size: larger;
