@@ -146,7 +146,7 @@ body p{
 
 .footer{
     position: relative;
-    top: 100px;
+    top: 200px;
     display: inline;
 }
 
@@ -154,8 +154,18 @@ body p{
     width: 100%;
     color: white;
     background-color: black;
-    padding: 10px 20px;
+    padding: 10px;
 }
+
+.footer a{
+    width: 100%;
+    color: white;
+    background-color: black;
+    text-decoration: none;
+    padding: 10px;
+    margin-bottom: 60px;
+}
+
 
 
 
@@ -263,6 +273,11 @@ du footer et du paragraphe d'intro sera la même*/
     margin-left: 10px;
     font-size: larger;
 }
+.choix ul{
+    justify-content: center; /* Centre le contenu horizontalement */
+    align-items: center;
+    text-align: center;
+}
 
 .choix li {
     display: inline-block;
@@ -278,9 +293,10 @@ du footer et du paragraphe d'intro sera la même*/
 }
 
 .element {
-    margin-top: 500px;
+    margin-top: 1200px;
     margin-left: 10px;
     text-align: justify;
+    margin-bottom: 100px
 }
 
 .element h2{
@@ -290,6 +306,7 @@ du footer et du paragraphe d'intro sera la même*/
 .element audio{
     float: right;
     margin-right: 30px;
+    width: 40%;
 }
 
 .element img{
@@ -301,4 +318,35 @@ du footer et du paragraphe d'intro sera la même*/
 .element h3,
 p{
     margin-top: 30px;
+}
+
+.element p{
+    font-size: larger;
+}
+
+.element ul{
+    margin-top: 40px;
+    justify-content: center; /* Centre le contenu horizontalement */
+    align-items: center;
+    text-align: center;
+}
+
+.element li{
+    display: inline-block;
+    background-color: black;
+    padding: 20px;
+    margin: 10px;
+    text-decoration: none;
+    justify-content: center; /* Centre le contenu horizontalement */
+    align-items: center;
+    text-align: center;
+    font-size: larger;
+}
+
+.element a {
+    text-decoration: none;
+    background-color: black;
+    justify-content: center; /* Centre le contenu horizontalement */
+    align-items: center;
+    text-align: center;
 }
