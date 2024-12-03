@@ -27,7 +27,7 @@
     padding: auto; 
     justify-content: center; /* Centre le contenu horizontalement */
     align-items: center;
-    text-align: center;
+    text-align: center; /* Centre le texte dans le conteneur horizontalement */
     padding: 60px 0;
     position: absolute;
     right: 25%;
@@ -169,9 +169,9 @@ body p{
 
 
 
-/* Pour les pages parcours, info, etc on réutilise le header et le footer pour plus
+/* Pour les pages, informations pratiques, discours, etc on réutilise le header et le footer pour plus
 de cohérence quand on change de page, en revanche je vais utiliser un code très 
-similaire pour refaire la page parcours*/
+similaire pour refaire la page parcours, mais pas le même car la dimension de mes images a légèrement changé*/
 
 
 .joail{
@@ -292,6 +292,22 @@ du footer et du paragraphe d'intro sera la même*/
     background-color: black;
 }
 
+.choix_image {
+    justify-content: center; /* Centre le contenu horizontalement */
+    align-items: center;
+    text-align: center;
+    margin-left: 10%;
+}
+
+#plan{
+    width: 80%;
+    margin-top: 30px;
+    justify-content: center; /* Centre le contenu horizontalement */
+    align-items: center;
+    text-align: center;
+    margin-left: 10%;
+}
+
 .element {
     margin-top: 1200px;
     margin-left: 10px;
@@ -350,3 +366,12 @@ p{
     align-items: center;
     text-align: center;
 }
+
+
+/*Mise en page zirconium car plusieurs éléments et audios*/
+
+#zircon2,
+#zircon3{
+    margin-top: 50px;
+}
+
