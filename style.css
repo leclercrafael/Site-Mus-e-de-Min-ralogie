@@ -375,3 +375,30 @@ p{
     margin-top: 50px;
 }
 
+
+/*On va styliser la page discours.html */
+
+#discours{
+}
+#discours p {
+    width: 30%;
+    float: right;
+    margin-right: 5%;
+    text-align:justify;
+}
+
+#spotify{
+    width: 15%;
+    float: right;
+}
+
+#discours2{
+    float: right;
+    position: relative;
+    bottom: 800px;
+    width: 40%;
+}
+
+#discours2 img{
+    margin: 2%;
+}
