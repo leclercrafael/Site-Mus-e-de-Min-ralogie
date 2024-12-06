@@ -397,9 +397,12 @@ p{
     position: relative;
     bottom: 800px;
     width: 40%;
-    margin-left: 10px;
-}
+    margin-left: 10px;}
 
 #discours2 img{
     margin: 2%;
+}
+
+#discours2 p{
+    margin-left: 10px;
 }
